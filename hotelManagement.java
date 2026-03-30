@@ -64,7 +64,7 @@ public class hotelManagement {
         }
     }
 
-    // ✅ Reserve a room
+    //  Reserve a room
     static void reserveRoom(Connection conn, Scanner sc) {
         try {
             System.out.print("Enter guest name: ");
@@ -92,7 +92,7 @@ public class hotelManagement {
         }
     }
 
-    // ✅ Update guest info
+    //  Update guest info
     private static void updateInfo(Connection conn, Scanner sc) {
         try {
             System.out.print("Enter room number to update: ");
@@ -121,7 +121,7 @@ public class hotelManagement {
         }
     }
 
-    // ✅ Get room number by guest name
+    // Get room number by guest name
     private static void getRoom(Connection conn, Scanner sc) {
         try {
             System.out.print("Enter guest name to search: ");
@@ -148,7 +148,7 @@ public class hotelManagement {
         }
     }
 
-    // ✅ Delete guest reservation by room number
+    // Delete guest reservation by room number
     private static void vacatingRoom(Connection conn, Scanner sc) {
         try {
             System.out.print("Enter room number to delete: ");
@@ -170,7 +170,7 @@ public class hotelManagement {
         }
     }
 
-    // ✅ View all reservations
+    // View all reservations
     private static void viewAll(Connection conn) {
         try {
             String query = "SELECT * FROM reservation;";
